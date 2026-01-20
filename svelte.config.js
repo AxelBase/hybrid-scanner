@@ -7,11 +7,15 @@ const config = {
     adapter: adapter({
       pages: 'docs',
       assets: 'docs',
-      fallback: 'index.html',
+      fallback: undefined,
       precompress: false
     }),
     paths: {
       base: '/hybrid-scanner'
+    },
+    prerender: {
+      entries: ['*'],
+      handleHttpError: 'warn'
     }
   }
 };
