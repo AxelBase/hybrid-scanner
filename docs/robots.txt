@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hybrid-scanner.vercel.app/sitemap.xml
