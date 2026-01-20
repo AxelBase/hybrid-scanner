@@ -12,10 +12,6 @@ const config = {
     }),
     paths: {
       base: '/hybrid-scanner'
-    },
-    prerender: {
-      entries: ['*'],
-      handleHttpError: 'warn'
     }
   }
 };
